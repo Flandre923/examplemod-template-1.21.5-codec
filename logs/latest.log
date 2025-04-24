@@ -1,0 +1,19 @@
+[244月2025 22:06:47.984] [main/INFO] [CodeDemo01/]: === 基本Codec操作 ===
+[244月2025 22:06:48.026] [main/INFO] [CodeDemo01/]: 编码整数42: 42
+[244月2025 22:06:48.027] [main/INFO] [CodeDemo01/]: 编码布尔值true: true
+[244月2025 22:06:48.030] [main/INFO] [CodeDemo01/]: 解码整数100: 100
+[244月2025 22:06:48.031] [main/INFO] [CodeDemo01/]: === 记录Codec示例 ===
+[244月2025 22:06:48.045] [main/INFO] [CodeDemo01/]: 编码Person对象: {"name":"Alice","age":20,"isStudent":true}
+[244月2025 22:06:48.058] [main/INFO] [CodeDemo01/]: 解码Person对象: Person[name=Bob, age=25, isStudent=false]
+[244月2025 22:06:48.059] [main/INFO] [CodeDemo01/]: === 变换Codec示例 ===
+[244月2025 22:06:48.063] [main/INFO] [CodeDemo01/]: 编码ClassB: "Bob"
+[244月2025 22:06:48.067] [main/INFO] [CodeDemo01/]: 解码为ClassA: ClassA[value=Bob]
+[244月2025 22:06:48.068] [main/INFO] [CodeDemo01/]: === 范围Codec示例 ===
+[244月2025 22:06:48.070] [main/INFO] [CodeDemo01/]: 有效数字50: 50
+[244月2025 22:06:48.073] [main/INFO] [CodeDemo01/]: 无效数字150: Value 150 outside of range [0:100]
+[244月2025 22:06:48.073] [main/ERROR] [CodeDemo01/]: 转换失败: Value 150 outside of range [0:100]
+[244月2025 22:06:48.074] [main/INFO] [CodeDemo01/]: === 列表和映射Codec示例 ===
+[244月2025 22:06:48.080] [main/INFO] [CodeDemo01/]: 编码位置: [10,20,30]
+[244月2025 22:06:48.084] [main/INFO] [CodeDemo01/]: 解码位置: ( 1.000E+1  2.000E+1  3.000E+1)
+[244月2025 22:06:48.087] [main/INFO] [CodeDemo01/]: 编码分数映射: {"Alice":90,"Bob":85,"Charlie":95}
+[244月2025 22:06:48.088] [main/INFO] [CodeDemo01/]: === 注册表Codec示例 ===
