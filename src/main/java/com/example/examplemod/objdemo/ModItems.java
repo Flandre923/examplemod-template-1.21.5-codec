@@ -13,7 +13,7 @@ public class ModItems {
 
 
     public static DeferredHolder<Item,Item> OBJ_BLOCK_ITEM = MODITEMS.registerItem(
-            "obj_block",
+            "obj_block_item",
             (properties) -> new BlockItem(ModBlocks.OBJ_BLOCK.get(),properties),
             new Item.Properties()
     );
