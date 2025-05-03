@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "examplemod:block/glass_texture"
+  },
+  "render_type": "minecraft:cutout"
+}

@@ -1,0 +1,12 @@
+{
+  "multipart": [
+    {
+      "when": {"connected": true},
+      "apply": {"model": "examplemod:block/connected_part"}
+    },
+    {
+      "when": {"connected": false},
+      "apply": {"model": "examplemod:block/disconnected_part"}
+    }
+  ]
+}
