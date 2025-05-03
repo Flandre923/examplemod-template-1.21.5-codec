@@ -1,11 +1,5 @@
 package com.example.examplemod;
 
-import com.example.examplemod.codec01.CodecDemo;
-import com.example.examplemod.codec01.DispatchDemo;
-import com.example.examplemod.codec01.FormatConversionDemo;
-import com.example.examplemod.objdemo.ModBlockEntities;
-import com.example.examplemod.objdemo.ModBlocks;
-import com.example.examplemod.objdemo.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -94,15 +88,6 @@ public class ExampleMod
 
         // Register the item to a creative tab
 //        modEventBus.addListener(this::addCreative);
-
-
-//        CodecDemo.run();
-//        FormatConversionDemo.formatConversionDemo();
-        DispatchDemo.run();
-        ModBlocks.BLOCKS.register(modEventBus);
-        ModItems.MODITEMS.register(modEventBus);
-        ModBlockEntities.BLOCK_ENTITIES.register(modEventBus);
-
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
 //        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
