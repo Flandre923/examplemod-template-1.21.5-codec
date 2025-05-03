@@ -1,0 +1,8 @@
+{
+  "loader": "neoforge:obj",
+  "model": "examplemod:models/block/obj_block.obj",
+  "textures": {
+    "texture0": "examplemod:block/obj_block",
+    "particle": "examplemod:block/obj_block"
+  }
+}

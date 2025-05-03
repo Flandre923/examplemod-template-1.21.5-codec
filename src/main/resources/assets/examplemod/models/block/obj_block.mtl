@@ -1,0 +1,7 @@
+# Blender MTL File: 'tutorial.blend'
+# Material Count: 1
+
+newmtl Material
+# map_Kd examplemod:block/obj_block
+map_Kd #texture0
+
