@@ -1,5 +1,7 @@
 package com.example.examplemod;
 
+import com.example.examplemod.i18n.demo03.registry.ModBlocks;
+import com.example.examplemod.i18n.demo03.registry.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -88,6 +90,9 @@ public class ExampleMod
 
         // Register the item to a creative tab
 //        modEventBus.addListener(this::addCreative);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
 //        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
